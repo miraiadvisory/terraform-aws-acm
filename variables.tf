@@ -46,6 +46,12 @@ variable "domain_name" {
   default     = ""
 }
 
+variable "region" {
+  description = "Region to create the resources into"
+  type        = string
+  default     = null
+}
+
 variable "subject_alternative_names" {
   description = "A list of domains that should be SANs in the issued certificate"
   type        = list(string)
@@ -119,6 +125,12 @@ variable "distinct_domain_names" {
 
 variable "key_algorithm" {
   description = "Specifies the algorithm of the public and private key pair that your Amazon issued certificate uses to encrypt data"
+  type        = string
+  default     = null
+}
+
+variable "export" {
+  description = "Whether the certificate can be exported. Valid values are ENABLED or DISABLED (default). Note Issuing an exportable certificate is subject to additional charges"
   type        = string
   default     = null
 }

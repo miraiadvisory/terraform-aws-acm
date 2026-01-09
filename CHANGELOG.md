@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file.
 
+## [6.3.0](https://github.com/terraform-aws-modules/terraform-aws-acm/compare/v6.2.0...v6.3.0) (2026-01-08)
+
+### Features
+
+* Add provider meta user-agent ([#168](https://github.com/terraform-aws-modules/terraform-aws-acm/issues/168)) ([af094ca](https://github.com/terraform-aws-modules/terraform-aws-acm/commit/af094ca8431bec2902fc94d2074a7638188decca))
+
+## [6.2.0](https://github.com/terraform-aws-modules/terraform-aws-acm/compare/v6.1.1...v6.2.0) (2025-11-29)
+
+### Features
+
+* Downgrade min supported version of Terraform to `v1.5.7` ([#167](https://github.com/terraform-aws-modules/terraform-aws-acm/issues/167)) ([6c94f45](https://github.com/terraform-aws-modules/terraform-aws-acm/commit/6c94f459998ae02b7050e8123e8877a370c15261))
+
+## [6.1.1](https://github.com/terraform-aws-modules/terraform-aws-acm/compare/v6.1.0...v6.1.1) (2025-10-21)
+
+### Bug Fixes
+
+* Update CI workflow versions to latest ([#165](https://github.com/terraform-aws-modules/terraform-aws-acm/issues/165)) ([628e299](https://github.com/terraform-aws-modules/terraform-aws-acm/commit/628e299b49434745575ae25cee5afd452906b10c))
+
+## [6.0.0](https://github.com/terraform-aws-modules/terraform-aws-acm/compare/v5.2.0...v6.0.0) (2025-06-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* Handle new region parameter introduced in terraform-aws 6.0 (#156)
+
+### Features
+
+* Handle new region parameter introduced in terraform-aws 6.0 ([#156](https://github.com/terraform-aws-modules/terraform-aws-acm/issues/156)) ([e503ecd](https://github.com/terraform-aws-modules/terraform-aws-acm/commit/e503ecd3925729b0291f7052416f053a952bb0a9))
+
 ## [5.2.0](https://github.com/terraform-aws-modules/terraform-aws-acm/compare/v5.1.1...v5.2.0) (2025-06-05)
 
 
